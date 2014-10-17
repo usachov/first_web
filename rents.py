@@ -16,7 +16,7 @@ def write_to_csv(data):
                                 quoting=csv.QUOTE_NONNUMERIC)
             writer.writerow(row)
         csv_file.write(url)
-        
+
 
 
 def to_s(obj):
